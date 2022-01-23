@@ -1,0 +1,90 @@
+#header{
+    height: 100px;
+    background: linear-gradient(to left, #33ccff 0%, #ccff33 100%);
+    width: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main_header{
+    display: flex;
+    justify-content: space-around;
+}
+.header_right a{
+    color: brown;
+    margin: 20px;
+    /* decoration la gạch chân chữ muốn làm mất dấu gạch chân thì viết none */
+    text-decoration: none;
+}
+.header_right{
+    line-height: 80px;
+}
+
+.body_left h1{
+    color: darkorange;
+}
+.main_body{
+    /* chèn ảnh nằm ngang */
+     display: flex; 
+     justify-content: space-around;
+}
+.header_left img{
+    width: 100px;
+}
+.body_left{
+    width: 35%;
+}
+#body{
+    background-color: lightslategray;
+    /* tăng độ cao */
+    height: 480px;
+    padding: 40px;
+}
+.icons i{
+    font-size: 56px;
+    margin: 10px;
+}
+.body_right p{
+    font-size: 25px;
+    margin: 8px;
+    display: inline;
+}
+.body_left p{
+    font-size: 25px;
+    line-height: 35px;
+}
+.body_right i{
+    font-size: 25px;
+}
+.icons{
+    width: 100%;
+    /* center là căn giữa */
+    text-align: center;
+}
+.body_right p{
+    line-height: 45px;
+}
+.header_right a{
+    font-size: 18px;
+}
+#footer{
+    background-color: bisque;
+}
+.img img{
+    /* làm bóng ảnh lên */
+    box-shadow: 0 0 5px 5px #2c3133;
+    
+}
+.body_right img{
+    box-shadow: 0 0 5px 4px #2c3133;
+}
+.img{
+    text-align: center;
+}
+.img p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
